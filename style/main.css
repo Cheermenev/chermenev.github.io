@@ -22,3 +22,7 @@ column-верткально*/
 .column{
     flex-direction:column;
 }
+/*главное меню в подвале*/
+footer nav, div ul{
+    display: flex;/*обозначаем, что это flex-контейнер*/
+}
