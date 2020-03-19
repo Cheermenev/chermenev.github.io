@@ -103,7 +103,7 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
-header a: hover,
-footera: hover {
+header a:hover,
+footera:hover {
     text-decoration: underline;
 }
