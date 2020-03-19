@@ -89,3 +89,9 @@ aside {
 footer {
     flex: 0 0 auto;
 }
+button {
+    height: 50px;
+    /*width: 100px;*/
+    background-color: #999;
+    border-radius: 5px;
+}
