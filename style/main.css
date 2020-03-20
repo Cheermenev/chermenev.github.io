@@ -115,7 +115,7 @@ footer>div.container {
 footer nav ul {
     margin-right: 30px;
 }
-button {
+.button {
     height: 50px;
     /*width: 100px;*/
     padding: 20px 30px;
@@ -164,6 +164,22 @@ h6 {
 .b-bottom {
     border-bottom: 1px solid #e5e5e5;
 }
+header-logo {
+    width: 100px;
+}
+aside a {
+    color: 000;
+    text-decoration: none;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+aside li {
+    line-height: 1.5em;
+}
+footer li [
+line-height: 2em;
+]
 header a,
 footer a {
     color: #fff;
