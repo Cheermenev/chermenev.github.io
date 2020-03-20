@@ -152,6 +152,18 @@ h6 {
     font-size: 1.4em;
     padding: .8em 0 0.6em 0;
 }
+.b-right {
+    border-right: 1px solid #e5e5e5;
+}
+.b-left {
+    border-left: 1px solid #e5e5e5;
+}
+.b-top {
+    border-top: 1px solid #e5e5e5;
+}
+.b-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
 header a,
 footer a {
     color: #fff;
