@@ -114,10 +114,10 @@ footer>div.container {
 footer nav ul {
     margin-right: 30px;
 }
-button {
+.button {
     height: 50px;
     /*width: 100px;*/
-    background-color: #999;
+    background-color: #666;
     border-radius: 5px;
 }
 header a,
