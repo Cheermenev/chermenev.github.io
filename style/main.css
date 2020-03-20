@@ -66,9 +66,17 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
+    background-color: #000;
+    height: 100px;
+    color: #fff;
 }
-
-
+header>div.container {
+    height: 100%;
+    align-items: center;
+}
+header ul li {
+    margin-right: 20px;
+}
 /* Основное содержимое */
 main {
     display: flex;
@@ -76,9 +84,13 @@ main {
     background-image: url(/site/images/background.jpg);
     background-position: center center;
     background-size: cover;
+    background-color: #e5e5e5;
 }
 main > div.container {
     flex: 1 0 auto;
+}
+main>div.container {
+    background-color: #fff;
 }
 section {
 
@@ -91,6 +103,16 @@ aside {
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
+    background-color: #000;
+    height: 200px;
+    color: #fff;
+}
+footer>div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+footer nav ul {
+    margin-right: 30px;
 }
 button {
     height: 50px;
