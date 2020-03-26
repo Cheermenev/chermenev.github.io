@@ -86,9 +86,10 @@ main {
     background-position: center center;
     background-size: cover;
     background-color: #e5e5e5;
-    color: blue;
+    color: #000;
+
 }
-main > div.container {
+main>div.container {
     flex: 1 0 auto;
 }
 main>div.container {
