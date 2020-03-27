@@ -1,8 +1,6 @@
 /* Импорт стилей, шрифтов и иконок */
 /* Сброс CSS */
 @import url("https://marksheet.io/css/reset.css");
-
-
 /* Базовые стили */
 html {
     height: 100%;
@@ -20,7 +18,43 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
-
+.button {
+    height: 50px;
+    /*width: 100px;*/
+    padding: 20px 30px;
+    margin: 10px 20px;
+    text-decoration: none !important;
+}
+.button:hover {
+    background-color: #888;
+}
+.container {
+    padding: 0 15px;
+}
+h1 {
+    font-size: 2.4em;
+    padding: .8em 0 1.2em 0;
+}
+h2{
+    font-size: 2.2em;
+    padding: .8em 0 1.0em 0;
+}
+h3 {
+    font-size: 2.0em;
+    padding: .8em 0 0.8em 0;
+}
+h4 {
+    font-size: 1.8em;
+    padding: .8em 0 0.6em 0;
+}
+h5 {
+    font-size: 1.6em;
+    padding: .8em 0 0.6em 0;
+}
+h6 {
+    font-size: 1.4em;
+    padding: .8em 0 0.6em 0;
+}
 
 /* Предустановки */
 .row {
@@ -36,7 +70,18 @@ nav ul {
     padding: 0;
     list-style: none;
 }
-
+.b-right {
+    border-right: 1px solid #e5e5e5;
+}
+.b-left {
+    border-left: 1px solid #e5e5e5;
+}
+.b-top {
+    border-top: 1px solid #e5e5e5;
+}
+.b-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
 
 /* Гибкая верстка */
 img {
@@ -100,7 +145,19 @@ section {
 aside {
 
 }
-
+header-logo {
+    width: 100px;
+}
+aside a {
+    color: 000;
+    text-decoration: none;
+}
+aside a:hover {
+    text-decoration: underline;
+}
+aside li {
+    line-height: 1.5em;
+}
 
 /* Подвал сайта */
 footer {
@@ -152,31 +209,6 @@ h5 {
 h6 {
     font-size: 1.4em;
     padding: .8em 0 0.6em 0;
-}
-.b-right {
-    border-right: 1px solid #e5e5e5;
-}
-.b-left {
-    border-left: 1px solid #e5e5e5;
-}
-.b-top {
-    border-top: 1px solid #e5e5e5;
-}
-.b-bottom {
-    border-bottom: 1px solid #e5e5e5;
-}
-header-logo {
-    width: 100px;
-}
-aside a {
-    color: 000;
-    text-decoration: none;
-}
-aside a:hover {
-    text-decoration: underline;
-}
-aside li {
-    line-height: 1.5em;
 }
 footer li [
     line-height: 2em;
