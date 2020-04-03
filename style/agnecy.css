@@ -70,6 +70,7 @@ header ul {
 header li a {
     padding: 30px 10px;
     text-decoration: none;
+    color: #dedede;
 
 }
 header > div.container {
