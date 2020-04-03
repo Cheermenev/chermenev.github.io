@@ -59,9 +59,45 @@ img {
 /* Шапка сайта */
 header {
     flex: 0 0 auto;
-    background-color: #332f30;
     color: #dedede;
 }
 header ul {
     justify-content: center;
 }
+header > .container {
+    background-color: #332f30;
+    height: 100%;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
