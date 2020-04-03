@@ -78,6 +78,9 @@ header > div.container {
     align-items: center;
     background-color: #332f30;
 }
+header li a:hover {
+    background-color: #ff4043;
+}
 
 
 
