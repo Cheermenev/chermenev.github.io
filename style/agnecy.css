@@ -62,6 +62,7 @@ header {
     color: #dedede;
     font-size: 25px;
     height: 87px;
+    background-color: #f6f2ef;
 }
 header ul {
     justify-content: center;
