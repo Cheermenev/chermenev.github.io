@@ -74,6 +74,7 @@ header li a {
 }
 header > div.container {
     height: 100%;
+    align-items: center;
 }
 
 
