@@ -68,7 +68,9 @@ header ul {
 header > .container {
     background-color: #332f30;
 }
-
+li a {
+    margin: 30px 10px;
+}
 
 
 
