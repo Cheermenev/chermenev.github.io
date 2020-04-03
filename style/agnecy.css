@@ -66,15 +66,15 @@ header ul {
     justify-content: center;
     display: flex;
 }
-header > .container {
-    background-color: #332f30;
-}
 header li a {
     padding: 30px 10px;
+    text-decoration: none;
+
 }
 header > div.container {
     height: 100%;
     align-items: center;
+    background-color: #332f30;
 }
 
 
