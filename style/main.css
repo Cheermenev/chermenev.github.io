@@ -1,7 +1,7 @@
 /* Импорт стилей, шрифтов и иконок */
-/* Сброс CSS */
-@import url("https://marksheet.io/css/reset.css");
-/* Базовые стили */
+    /* Сброс CSS */
+    @import url("https://marksheet.io/css/reset.css");
+    /* Базовые стили */
 html {
     height: 100%;
 }
