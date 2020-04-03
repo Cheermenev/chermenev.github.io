@@ -60,10 +60,10 @@ img {
 header {
     flex: 0 0 auto;
     color: #dedede;
-    height: 100px;
 }
 header ul {
     justify-content: center;
+    display: flex;
 }
 header > .container {
     background-color: #332f30;
