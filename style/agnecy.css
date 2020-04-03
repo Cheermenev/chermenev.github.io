@@ -60,7 +60,7 @@ img {
 header {
     flex: 0 0 auto;
     color: #dedede;
-    font-size: 100px;
+    font-size: 50px;
 }
 header ul {
     justify-content: center;
