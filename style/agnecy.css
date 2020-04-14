@@ -22,6 +22,7 @@ body {
 }
 .column {
     flex-direction: column;
+    display: flex;
 }
 nav ul {
     margin: 0;
@@ -82,7 +83,107 @@ header > div.container {
 header li a:hover {
     background-color: #ff4043;
 }
-
+.video > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+.content > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+.Products > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+section {
+    flex: 3 0 auto; /* 3 - это ширина столбца */
+    padding: 0 90px;
+}
+.video {
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #F7F4F4;
+}
+.content {
+    display: flex;
+    flex: 1 0 auto;
+    background-color: #ffffff;
+}
+.content img {
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+}
+.button {
+    background-color: #ff2e2f;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.prod > div {
+    justify-content: center;
+    display: flex;
+}
+.prod img {
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.Products {
+    flex: 1 0 auto;
+    background-color: #ffffff;
+}
+.prodmenu ul {
+    color: black;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.prodmenu ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.prodmenu ul li a:hover {
+    color: #768eaf;
+    text-decoration: none;
+}
+.active a {
+    color: blue !important;
+}
+/* Подвал сайта */
+footer {
+    flex: 0 0 auto;
+    background-color: #332f30;
+    height: 50px;
+    color: grey;
+}
+header a,
+footer a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover,
+footer a:hover {
+    text-decoration:none;
+}
+footer a img {
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-right: 8px;
+}
 
 
 
