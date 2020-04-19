@@ -159,9 +159,45 @@ section {
     color: #768eaf;
     text-decoration: none;
 }
+.teamtop {
+    text-align: center;
+}
 .active a {
     color: blue !important;
 }
+.team > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+.subscribe {
+    background-color: black;
+}
+.subscribe > div.container {
+    height: 100%;
+    padding: 10px 0;
+}
+.subtext1 {
+    color: white;
+    text-align: center;
+}
+.subtext2 {
+    color: gray;
+    text-align: center;
+}
+.button1 {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+}
+.button1:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
 /* Подвал сайта */
 footer {
     flex: 0 0 auto;
